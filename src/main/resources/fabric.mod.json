@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_warp",
+  "version": "${version}",
+  "name": "Cobblemon Warp",
+  "description": "Adds a Warp Move action to the Cobblemon interaction wheel.",
+  "authors": ["BilalDodin"],
+  "license": "MIT",
+  "icon": "assets/cobblemon_warp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bilaldodin.cobblemonwarp.CobblemonWarpMod"
+    ],
+    "client": [
+      "com.bilaldodin.cobblemonwarp.client.CobblemonWarpClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "architectury": "*",
+    "cobblemon": "*"
+  }
+}
