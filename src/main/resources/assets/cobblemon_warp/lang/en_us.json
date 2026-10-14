@@ -1,0 +1,9 @@
+{
+  "screen.cobblemon_warp.x": "X Coordinate",
+  "screen.cobblemon_warp.y": "Y Coordinate",
+  "screen.cobblemon_warp.z": "Z Coordinate",
+  "screen.cobblemon_warp.confirm": "Confirm Warp",
+  "wheel.cobblemon_warp.warp_move": "Warp Move",
+  "message.cobblemon_warp.error.coordinates_blank": "Please provide all three coordinates.",
+  "message.cobblemon_warp.error.coordinates_integer": "Coordinates must be valid integers."
+}
